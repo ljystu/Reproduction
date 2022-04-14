@@ -1,0 +1,8 @@
+SOURCE: GTA
+TARGET: Cityscapes
+EXP_NAME: GTA2Cityscapes_AdvEnt
+NUM_WORKERS: 0
+TEST:
+  MODE: single
+  RESTORE_FROM:
+    - E:/ADVENT-master/advent/pretrained_models/gta2cityscapes_advent.pth
