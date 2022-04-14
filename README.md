@@ -1,9 +1,9 @@
-# ADVENT: Adversarial Entropy Minimization for Domain Adaptation in Semantic Segmentation
+# Reproduction of ADVENT: Adversarial Entropy Minimization for Domain Adaptation in Semantic Segmentation
 
 
 ## Introduction
 In this project, we managed to reproduce the result of table 1(a) and did data migration on a different dataset `foggy Cityscape`. 
-In this paper, the authors propose two novels, complementary methods using (i) a direct entropy loss and (ii) an adversarial loss respectively. They demonstrated state-of-the-art performance in semantic segmentation on two challenging “synthetic-2-real” set-ups1 and show that the approach can also be used for detection.
+In the paper of ADVENT, the authors proposed two novels, complementary methods using (i) a direct entropy loss and (ii) an adversarial loss respectively. They demonstrated state-of-the-art performance in semantic segmentation on two challenging “synthetic-2-real” set-ups1 and show that the approach can also be used for detection.
 ## Main approach
 Two approaches are implemented targeting minimizing the entropy loss, including direct entropy minimization and adversarial training minimization.
 <!-- ![Architecture](https://i.imgur.com/zOCWrxN.png) -->
